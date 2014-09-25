@@ -1,0 +1,32 @@
+Roy Joo
+50016076
+CSE=341
+Project-2 
+
+
+32 Bit ALU
+
+The ALU takes in inputs s1, s2, sub, a, b, c
+then it returns inputs f, cout, set, zero
+
+Operations Available are AND, OR, ADD, SUB, SLT, BEQ
+
+For AND (s1=0, s2=0, sub= 0)
+this will return f= a&b
+
+For OR (s1=0, s2=1, sub= 0)
+this will return f= a|b
+
+For ADD (s1=1, s2=0, sub= 0)
+this will return f= a+b
+
+For SUB (s1=1, s2=0, sub=1)
+this will return f= a=b
+
+For SLT (s1=1, s2=1, sub= 1)
+this will return set= 1 if a is greater or equal to b and set= 0 if a is less than b
+
+For BEQ (s1=1, s2=0, sub= 1)
+this will return zero = 1 if a =b and zero = 0 if a =/= b
+
+
